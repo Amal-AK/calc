@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calc"
+version = "0.0.1"
+description = "Tiny calculator example"
+authors = [{name = "Amal Akli"}]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["functions*"]  # ← tells setuptools to ship the "functions" dir

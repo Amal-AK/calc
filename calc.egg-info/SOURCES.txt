@@ -1,0 +1,9 @@
+pyproject.toml
+calc.egg-info/PKG-INFO
+calc.egg-info/SOURCES.txt
+calc.egg-info/dependency_links.txt
+calc.egg-info/top_level.txt
+functions/__init__.py
+functions/calc_class.py
+functions/calc_func.py
+tests/test_oneShoot.py

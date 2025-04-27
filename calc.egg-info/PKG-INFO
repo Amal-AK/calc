@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: calc
+Version: 0.0.1
+Summary: Tiny calculator example
+Author: Amal Akli
+Requires-Python: >=3.8

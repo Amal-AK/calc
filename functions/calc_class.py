@@ -3,7 +3,7 @@ calc_class.py contains the Calculator class.
 It uses the math functions from calc_func.
 """
 
-from com.automationpanda.example.calc_func import *
+from .calc_func import add, subtract, multiply, divide, maximum, minimum
 
 
 class Calculator(object):
